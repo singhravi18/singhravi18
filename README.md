@@ -3,12 +3,12 @@ THE ULTIMATE RED-THEMED DYNAMIC README
 -->
 
 <p align="center">
-  <img src="assets/readme2.gif" rotate="90" width="60%" alt="AI animation" />
+  <img src="assets/readme2.gif" rotate="90" width="70%" alt="AI animation" />
 </p>
 
 <!-- SOLID BLOCK STYLE NAME -->
 <div align="center">
-<pre><code style="color: #D90429; font-size: 18px; font-weight: bold; font-family: 'Courier New', monospace;">
+<pre><code>
 ██████╗  █████╗ ██╗   ██╗██╗    ██████╗  █████╗      ██╗██████╗ ██╗   ██╗████████╗
 ██╔══██╗██╔══██╗██║   ██║██║    ██╔══██╗██╔══██╗     ██║██╔══██╗██║   ██║╚══██╔══╝
 ██████╔╝███████║██║   ██║██║    ██████╔╝███████║     ██║██████╔╝██║   ██║   ██║   
