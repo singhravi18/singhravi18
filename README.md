@@ -170,9 +170,9 @@ philosophy: "Code is poetry, AI is the future"
   🐍 RED SNAKE DEVOURING CONTRIBUTIONS
 </h2>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ashx111/Ashx111/output/snake-red.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ashx111/Ashx111/output/snake-red.svg" />
-  <img alt="red snake eating contributions" src="https://raw.githubusercontent.com/Ashx111/Ashx111/output/snake-red.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/singhravi18/singhravi18/output/snake-red.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/singhravi18/singhravi18/output/snake-red.svg" />
+  <img alt="red snake eating contributions" src="https://raw.githubusercontent.com/singhravi18/singhravi18/output/snake-red.svg" />
 </picture>
 </div>
 
