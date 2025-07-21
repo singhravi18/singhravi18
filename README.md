@@ -38,7 +38,6 @@ name: Ravi Kumar Singh
 alias: ["singhravi18", "Ravi Rajput"]
 title: Aspiring Software Development Engineer
 specialization: Artificial Intelligence & Machine Learning
-location: Garhwa, Jharkhand, India
 education: B.E. Computer Science @ Chandigarh University
 status: { 
   "Currently": "Building next-gen AI applications",
