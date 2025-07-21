@@ -1,29 +1,28 @@
-name: Generate Snake Animation
+# .github/workflows/snake.yml
+name: Generate Red Snake
 
 on:
   schedule:
-    # This runs the action every day at midnight
-    - cron: "0 0 * * *"
-  # This allows you to run it manually from the Actions tab
+    - cron: "0 */12 * * *" # runs every 12 hours
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
-      # This checks out your repository code
-      - uses: actions/checkout@v2
-
-      # This is the main step that generates the snake SVG file
-      - uses: Platane/snk@v3
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Ashx111
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark&color_snake=#ff0000&color_dots=#8b0000,#b22222,#dc143c,#ff4444,#ffffff
+            dist/snake-red.svg?palette=github-dark&color_snake=#ff0000&color_dots=#1a1a1a,#2d1b1b,#8b0000,#dc143c,#ff4444
 
-      # This step takes the generated file and pushes it to the 'output' branch
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
